@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote  name="sof-github"
+             fetch="https://github.com/thesofproject/" />
+
+    <!-- firmware projects -->
+    
+    <project remote="sof-github"
+	     name="sof.git" path="sof/sof" revision="master" />
+
+    <project remote="sof-github"
+	      name="xtensa-overlay.git" path="sof/xtensa-overlay" revision="sof-gcc8.1" />
+
+    <project remote="sof-github"
+	     name="crosstool-ng.git" path="sof/crosstool-ng" revision="sof-gcc8.1" />
+
+    <project remote="sof-github"
+	     name="newlib-xtensa.git" path="sof/newlib-xtensa" revision="xtensa" />
+
+    <!-- Linux kernel projects -->
+    <project remote="sof-github"
+	     name="linux.git" path="kernel/linux" revision="topic/sof-dev" />
+    
+    <project remote="sof-github"
+	     name="kconfig.git" path="kernel/kconfig" revision="master" />
+
+    <project remote="sof-github"
+	     name="acpi-scripts.git" path="kernel/acpi-scripts" revision="master" />
+    
+
+</manifest>
