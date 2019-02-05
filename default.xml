@@ -7,7 +7,7 @@
     <!-- firmware projects -->
     
     <project remote="sof-github"
-	     name="sof.git" path="sof/sof" revision="master" />
+	     name="sof.git" path="sof/sof" revision="8169a9ec076fc7ec1eaacc68c5d9ac1704c5b674" />
 
     <project remote="sof-github"
 	      name="xtensa-overlay.git" path="sof/xtensa-overlay" revision="sof-gcc8.1" />
@@ -20,7 +20,7 @@
 
     <!-- Linux kernel projects -->
     <project remote="sof-github"
-	     name="linux.git" path="kernel/linux" revision="topic/sof-dev" />
+	     name="linux.git" path="kernel/linux" revision="d7c0864128eca2c9f70ebba8b207ea0efb48cadd" />
     
     <project remote="sof-github"
 	     name="kconfig.git" path="kernel/kconfig" revision="master" />
