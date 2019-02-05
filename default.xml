@@ -28,5 +28,8 @@
     <project remote="sof-github"
 	     name="acpi-scripts.git" path="kernel/acpi-scripts" revision="master" />
     
+    <!-- build scripts -->
+    <project remote="sof-github"
+	     name="build-scripts.git" path="build-scripts" revision="master" />
 
 </manifest>
